@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stress Level Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="container">
+<div class="title">
+    <h1> STRESS LEVEL PREDICTION </h1>
+</div>
+<form class="form">
+	<h2>Humidity Value</h2>
+    <input class="humidity"  type="text" id="humidity" class="floatLabel"  value="00">
+	<h2>Body Temperature</h2>
+    <input class="humidity"  type="text" id="temperature" class="floatLabel" value="00">
+	<h2>Today's Step Count </h2>
+    <input class="humidity"  type="text" id="step_count" class="floatLabel"  value="00">
+	</form>
+
+	
+	<button class="submit" onclick="onClickedEstimatedStressLevel()" type="button">Estimate Stress Level</button>
+	<div id="uiEstimatedStressLevel" class="result">	<h2></h2> </div>
+</div>
+</body>
+</html>

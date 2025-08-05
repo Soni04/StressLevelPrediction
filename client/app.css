@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* app.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional: to add a background color */
+}
+
+.container {
+    text-align: center;
+}
+
+
+.title, .form, .submit, .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.title h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form h2 {
+    margin: 10px 0;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit {
+    width:75%;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049; /* Darker button color on hover */
+}
+
+.result {
+    width: 75%;
+    background: #dcd686;
+    padding: 10px 20px;
+    border: 0;
+    margin: 25px 0 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.result h2 {
+    text-align: center;
+    margin-top: 20px;
+}
